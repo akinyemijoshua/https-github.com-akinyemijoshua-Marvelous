@@ -1,0 +1,146 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="navbar">
+        <nav>
+            <a href="#welcome-section">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a id="profile-link" href="https://github.com/your-profile" target="_blank">GitHub Profile</a>
+        </nav>
+    </header>
+
+    <section id="welcome-section">
+        <h1>Welcome to My Portfolio</h1>
+    </section>
+
+    <section id="projects">
+        <div class="project-tile">
+            <h2>Project Title</h2>
+            <p>Description of the project.</p>
+            <a href="https://example.com/project-link" target="_blank">View Project</a>
+        </div>
+        <!-- Add more project tiles as needed -->
+    </section>
+
+    <section id="contact">
+        <!-- Contact form or information here -->
+    </section>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    z-index: 1000; /* Ensures it stays above other content */
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Welcome Section Styles */
+#welcome-section {
+    margin-top: 60px; /* Adjust based on navbar height */
+    text-align: center;
+    padding: 20px;
+}
+
+#welcome-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 20px;
+}
+
+.project-tile {
+    margin-bottom: 20px;
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #3498db;
+    font-size: 1.2rem;
+}
+
+.project-tile a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design with Media Queries */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar a {
+        margin: 10px 0;
+    }
+
+    #welcome-section h1 {
+        font-size: 2rem;
+    }
+
+    .project-tile a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar {
+        padding: 5px 0;
+    }
+
+    #welcome-section h1 {
+        font-size: 1.5rem;
+    }
+
+    .project-tile a {
+        font-size: 0.9rem;
+    }
+}
+
+
+** end of undefined **
+
